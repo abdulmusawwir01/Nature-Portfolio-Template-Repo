@@ -1,0 +1,594 @@
+body{
+	font-family: 'Raleway', sans-serif;
+}
+	*{
+		padding: 0;
+		margin: 0;
+	}
+	.main{
+		display: flex;
+	}
+		.fixed-side{
+			padding: 0px 0px;
+			background: white;
+			height: 100vh;
+			width: 24%;
+		}
+		.use{
+			position: fixed;
+			box-sizing: border-box;
+		}
+		.header{
+			padding: 22px 16px 0px 16px;
+		}
+		.header img{
+			border-radius: 4px;
+		}
+		.header h1{
+			font-size: 20px;
+			line-height: 30px;
+			font-weight: 500;
+			padding-top: 28px ;
+		}
+		.header p{
+			color: gray;
+			font-size: 15px;
+			line-height: 22.5px;
+			font-weight: 400;
+			margin: 15px 0px 15px 0px;
+		}
+		.navber01 ul{
+			list-style: none;
+			padding-bottom: 20px;
+		}
+		
+		.navber01 a {
+			font-size: 15px;
+			line-height: 22.5px;
+			font-weight: 400;
+			color: #0e0f0f;
+			text-decoration: none;
+			text-align: left;
+			padding: 8.5px 18px;
+			display: block;
+		}
+		.navber01 .active{
+			color: #009688;
+			text-align: left;
+		}
+		.navber01 a:hover{
+			background: #ddd;
+			color: black;
+		}
+		.navber01 i{
+			padding-right: 20px;
+			text-align: left;
+		}
+		.header-icon{
+			padding: 0px 16px;
+		}
+		.header-icon i{
+			font-size: 18px;
+		}
+	.scroll-side{
+		padding: 10px 0px 0px 0px;
+		width: 76%; 
+		background: rgb(241, 241, 241);
+	}
+		.scroll-side h1{
+			font-size: 37px;
+			line-height: 54px;
+			font-weight: 500;
+			padding: 0px 16px;
+		}
+		.ssnavber{
+			display: flex;
+			padding: 40px 16px 10px 16px;
+		}
+			.ssnavber p{
+				font-size: 15px;
+				padding-right: 20px;
+			}
+			.ssnavber01 ul{
+				display: flex;
+				list-style: none;
+			}
+			.ssnavber01 a{
+				text-decoration: none;
+				font-size: 15px;
+				line-height: 22.5px;
+				font-weight: 400;
+				color: white;
+				background: black;
+				padding: 11px 16px;
+				margin-right: 4px;
+			}
+			.ssnavber01 a:hover{
+				color: snow;
+				background: gray;
+			}
+			.ssnavber02 ul{
+				display: flex;
+				list-style: none;
+			}
+			.ssnavber02 a{
+				text-decoration: none;
+				font-size: 15px;
+				line-height: 22.5px;
+				font-weight: 400;
+				color: black;
+				background: white;
+				padding: 11px 16.8px;
+				margin-right: 4px;
+			}
+			.ssnavber02 a:hover{
+				background: gray;
+			}
+			.ssnavber02 i{
+				padding-right: 15px;
+			}
+		.none{
+			padding: 0px 4px 0px 16px;
+		}
+			.none p{
+				font-size: 5px;
+				width: 100%;
+				color: rgb(211,211,211);
+				background: rgb(211,211,211);
+				margin: 16px 0px;
+			}
+		.ssp1{
+			display: flex;
+			gap: 14px;
+			padding: 0px 16px 15px 16px;
+		}
+			.sp1{
+				width: 33.34%;
+				background: white;
+			}
+			.sp2{
+				width: 33.34%;
+				background: white;
+			}
+			.sp3{
+				width: 33.34%;
+				background: white;
+			}
+			.ssp1 h3{
+				font-size: 15px;
+				line-height: 22.5px;
+				font-weight: 400;
+				margin: 15px;
+			}
+			.ssp1 p{
+				font-size: 15px;
+				line-height: 22.5px;
+				font-weight: 400;
+				margin: 15px;
+			}
+		.ssp2{
+			display: flex;
+			gap: 14px;
+			padding: 0px 16px;
+		}
+			.sp4{
+				width: 33.34%;
+				background: white;
+			}
+			.sp5{
+				width: 33.34%;
+				background: white;
+			}
+			.sp6{
+				width: 33.34%;
+				background: white;
+			}
+			.ssp2 h3{
+				font-size: 15px;
+				line-height: 22.5px;
+				font-weight: 400;
+				margin: 15px;
+			}
+			.ssp2 p{
+				font-size: 15px;
+				line-height: 22.5px;
+				font-weight: 400;
+				margin: 15px;
+			}
+			.ssnavber03{
+				text-align: center;
+				padding: 55px 16px;
+			}
+			.ssnavber03 li{
+				list-style: none;
+			}
+			.ssnavber03 ul{
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			.ssnavber03 a{
+				color: black;
+				font-size: 16px;
+				line-height: 22.5px;
+				font-weight: 400;
+				padding: 10px 16px;
+				text-decoration: none;
+			}
+			.ssnavber03 .active01{
+				color: white;
+				background: black;
+			}
+			.ssnavber03 a:hover{
+				color: white;
+				background: black;
+			}
+		.ssp3{
+			display: flex;
+			gap: 16px;
+			padding: 0px 16px;
+		}
+		.ssp4{
+			padding: 0px 16px;
+		}
+			.ssp4 h3{
+				font-size: 20px;
+				line-height: 30px;
+				font-weight: 600;
+				padding: 38px 0px 8px 9px;
+			}
+			.ssp4 p{
+				font-size: 15px;
+				line-height: 22.5px;
+				font-weight: 400;
+				padding: 8px;
+			}
+		.ssp5{
+			padding: 21px 24px 0px 24px;
+		}
+			.ssp5 h4{
+				font-size: 20px;
+				line-height: 30px;
+				font-weight: 400;
+				margin: 10px 0px;
+			}
+			.ssp5 p{
+				font-size: 15px;
+				line-height: 22.5px;
+				font-weight: 400;
+				margin: 15px 0px;
+			}
+			.ps5{
+				background: RGB(158, 158, 158);
+				width: 100%;
+			}
+			.ps05 p{
+				width: 95%;
+				color: white;
+				background: RGB(97, 97, 97);
+				font-size: 15px;
+				line-height: 22.5px;
+				font-weight: 400;
+				text-align: center;
+				padding: 8px 0px;
+			}
+			.ps06 p{
+				width: 85%;
+				color: white;
+				background: RGB(97, 97, 97);
+				font-size: 15px;
+				line-height: 22.5px;
+				font-weight: 400;
+				text-align: center;
+				padding: 8px 0px;
+			}
+			.ps07 p{
+				width: 80%;
+				color: white;
+				background: RGB(97, 97, 97);
+				font-size: 15px;
+				line-height: 22.5px;
+				font-weight: 400;
+				text-align: center;
+				padding: 8px 0px;
+			}
+			.ssnavber04 a{
+				color: white;
+				padding: 12px 24px;
+				margin: 16px 0px;
+				background: #616161;
+				font-size: 15px;
+				line-height: 22.5px;
+				font-weight: 400;
+				text-decoration: none;
+				display: inline-block;
+			}
+			.ssnavber04 i{
+				padding-right: 15px;
+				text-align: left;
+			}
+		.ssp6{
+			padding: 0px 16px;
+		}
+			.ssp6 h4{
+				font-size: 20px;
+				line-height: 30px;
+				font-weight: 400;
+				padding: 0px 8px 0px 8px;
+				margin: 40px 0px 10px 0px;
+			}
+		
+		.ssp7{
+			display: flex;
+			padding: 0px 24px 52px 24px;
+			gap: 18px;
+		}
+			.ssnavber05{
+				width: 33.34%;
+				opacity: 60%;
+			}
+			.ssnavber05:hover{
+				opacity: 100%;
+			}
+			.ssnavber05 ul{
+				list-style: none;
+				border: 1px solid Gainsboro;
+			}
+			.ssnavber05 li{
+				text-align: center;
+			}
+			.big{
+				font-size: 24px;
+				line-height: 36px;
+				font-weight: 400;
+				padding: 32px 16px;
+				color: white;
+				background: black;
+				text-align: center;
+				border-bottom: 1px solid Gainsboro;
+			}
+			.big1{
+				font-size: 24px;
+				line-height: 36px;
+				font-weight: 400;
+				padding: 32px 16px;
+				color: white;
+				background: RGB(0, 150, 136);
+				text-align: center;
+				border-bottom: 1px solid Gainsboro;
+			}
+			.small{
+				font-size: 15px;
+				line-height: 22.5px;
+				font-weight: 400;
+				text-align: center;
+				padding: 16px;
+				color: black;
+				background: white;
+				border-bottom: 1px solid Gainsboro;
+			}
+			.small h2{
+				font-size: 30px;
+				line-height: 45px;
+				font-weight: 400;
+				padding-top: 16px;
+				padding-bottom: 10px;
+				color: black;
+				background: white;
+				text-align: center;
+			}
+			.atag{
+				font-size: 15px;
+				line-height: 22.5px;
+				font-weight: 400;
+				text-align: center;
+				padding: 36px 16px;
+			}
+			.atag a{
+				color: white;
+				background: RGB(0, 150, 136);
+				padding: 14px 24px;
+				text-decoration: none;
+			}
+			.atag a:hover {
+				background: black;
+			}
+		.ssp8{
+			padding: 20px 16px 0px 16px;
+			background: RGB(158, 158, 158);
+		}
+			.ssp8 b{
+				font-size: 20px;
+				line-height: 30px;
+				font-weight: 500;
+				padding-left: 8px;
+				padding-top: 20px; 				
+			}
+			.ssn1{
+				display: flex;
+				padding: 35px 0px 45px 0px;
+			}
+			.ssnavber06{
+				width: 33.34%;
+				color: #FFFFFF;
+				background: #616161;
+				text-align: center;
+				padding: 0px 8px;
+			}
+			.ssnavber06 i{
+				color: RGB(241, 241, 241);
+				font-size: 34px;
+			}
+			.ssnavber06 p{
+				color: RGB(255, 255, 255);
+				font-size: 15px;
+				line-height: 22.5px;
+				font-weight: 400;
+				margin: 15px 0px;
+			}
+			.ssnavber07{
+				width: 33.34%;
+				color: #FFFFFF;
+				background: #009688;
+				text-align: center;
+				padding: 0px 8px;
+			}
+			.ssnavber07 i{
+				color: RGB(241, 241, 241);
+				font-size: 34px;
+			}
+			.ssnavber07 p{
+				color: RGB(255, 255, 255);
+				font-size: 15px;
+				line-height: 22.5px;
+				font-weight: 400;
+				margin: 15px 0px;
+			}
+			.ssn2{
+				padding: 0px 8px;
+			}
+			.letter1{
+				border-top: 0.5px solid Gainsboro;
+				padding-top: 20px;
+			}
+			input {
+					width: 100%;
+					padding: 10px 0px;
+			}
+			.inp{
+				padding-bottom: 18px;
+			}
+			.ssnavber08{
+				padding: 0px 8px 30px 8px;
+			}
+			.ssnavber08 a{
+				color: white;
+				padding: 8px 16px;
+				background: black;
+				font-size: 15px;
+				line-height: 22.5px;
+				font-weight: 400;
+				text-decoration: none;
+				display: inline-block;
+			}
+			.ssnavber08 i{
+				padding-right: 15px;
+			}
+		.ssp9{
+			background: #616161;
+			padding: 40px 30px 40px 30px;
+			display: flex;
+			gap: 8px;
+		}
+			.foot{
+				width: 33.66%;
+			}
+			.fh3{
+				font-size: 24px;
+				line-height: 36px;
+				font-weight: 400;
+				color: white;
+				margin-bottom: 12px;
+			}
+			.foot p{
+				font-size: 15px;
+				line-height: 22.5px;
+				font-weight: 400;
+				margin: 8px 0px;
+				color: white;
+			}
+			.foot1{
+				display: flex;
+			}
+			.foot1 a{
+				font-size: 15.5px;
+				line-height: 22.5px;
+				font-weight: 400;
+				color: white;
+				margin: 8px 0px 0px 5px;
+			}
+			.bp{
+				width: 33%;
+				margin-left: 8px;
+			}
+			.bp01{
+				display: flex;
+				border-bottom: 0.5px solid Gainsboro;
+			}
+			.bp01:hover{
+				background: Gainsboro;
+			}
+			.bp02{
+				display: flex;
+			}
+			.bp02:hover{
+				background: Gainsboro;
+			}
+			.bp2{
+				padding: 15px 15px 11px 15px;
+			}
+			.bp3{
+				padding-top: 13px;
+				color: white;
+			}
+			.lor{
+				padding-bottom: 1px;
+				font-size: 18px;
+				line-height: 27px;
+				font-weight: 400;
+			}
+			.sed{
+				font-size: 15px;
+				line-height: 22.5px;
+				font-weight: 400;
+			}
+			.pt{
+				width: 33.34%;
+				padding: 0px 8px;
+			}
+			.fhtra ul{
+				display: flex;
+				gap: 4px;
+				list-style: none;
+				padding-top: 6px;
+				margin-bottom: 16.5px;
+			}
+			.fhtra1 ul{
+				display: flex;
+				gap: 4px;
+				list-style: none;
+				padding-top: 3px;
+				margin-bottom: 16.5px;
+			}
+			.tra01 span{
+				color: white;
+				background: black;
+				text-align: center;
+				padding: 4px 8px 2px 8px;
+			}
+			.NY{
+				color: black;
+				background: #9e9e9e;
+				padding: 0px 8px;
+				display: inline-block;
+				font-size: 12px;
+				line-height: 18px;
+				font-weight: 400;
+				text-align: center;
+			}
+			
+		.ssp10{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			color: white;
+			background: black;
+			font-size: 15px;
+			line-height: 22.5px;
+			font-weight: 400;
+			padding: 25px;
+		}
+			.ssp10 a{
+				color: white;
+				padding-left: 5px;
+			}	
